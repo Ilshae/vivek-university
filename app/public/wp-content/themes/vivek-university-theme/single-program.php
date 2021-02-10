@@ -15,7 +15,7 @@
             <?php the_title(); ?>
           </span></p>
       </div>
-      <div class="generic-content"><?php the_content(); ?></div>
+      <div class="generic-content"><?php the_field('main_body_content'); ?></div>
       <?php 
       $relatedProfessors = new WP_Query(array(
         'posts_per_page' => -1,
@@ -35,7 +35,7 @@
         echo '<hr class="section-break"/>';
         echo '<h2 class="headling headline--medium">'.get_the_title().' Professors</h2>';
 
-        echo '<ul>';
+        echo '<ul class="professor-cards">';
         while ($relatedProfessors->have_posts()) {
           $relatedProfessors->the_post(); ?>
           <li class="professor-card__list-item">
