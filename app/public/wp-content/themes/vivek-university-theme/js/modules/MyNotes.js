@@ -74,7 +74,7 @@ class MyNotes {
         document.querySelector(".note-limit-message").classList.remove("active")
       }
     } catch (e) {
-      console.log("Sorry")
+      console.log(e)
     }
   }
 
@@ -98,7 +98,7 @@ class MyNotes {
     var newPost = {
       "title": document.querySelector(".new-note-title").value,
       "content": document.querySelector(".new-note-body").value,
-      "status": "publish"
+      "status": "private"
     }
 
     try {
