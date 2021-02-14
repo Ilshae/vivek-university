@@ -21,46 +21,46 @@
     position: relative;
   }
 
-  &--orange {
-    background-color: $lightOrange;
+  &--color4 {
+    background-color: $color4;
   }
 
-  &--orange:hover {
-    background: linear-gradient($lightOrange, color($lightOrange b(+30%) s(+80%)));
+  &--color4:hover {
+    background: linear-gradient($color4, color($color4 b(+30%) s(+80%)));
   }
 
-  &--dark-orange {
-    background-color: $darkOrange;
+  &--color5 {
+    background-color: $color5;
   }
 
-  &--dark-orange:hover {
-    background: linear-gradient($darkOrange, color($darkOrange b(+40%) s(+80%)));
+  &--color5:hover {
+    background: linear-gradient($color5, color($color5 b(+30%) s(+80%)));
   }
 
-  &--blue {
-    background-color: $mainBlue;
+  &--color2 {
+    background-color: $color3;
   }
 
-  &--blue:hover {
-    background: linear-gradient(color($mainBlue b(-16%)), $mainBlue);
+  &--color2:hover {
+    background: linear-gradient(color($color3 b(-16%)), $color3);
   }
 
-  &--yellow {
-    background-color: $mainYellow;
+  &--color3 {
+    background-color: $color2;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
   }
 
-  &--yellow:hover {
-    background: linear-gradient($mainYellow, color($mainYellow b(+40%) s(+80%)));
+  &--color3:hover {
+    background: linear-gradient($color2, color($color2 b(+40%) s(+80%)));
   }
 
-  &--beige {
-    background-color: $beige;
+  &--color1 {
+    background-color: $color1;
     color: #173f58;
   }
 
-  &--beige:hover {
-    background-color: $mainYellow;
+  &--color1:hover {
+    background-color: $color2;
   }
 
   &--gray {

@@ -18,7 +18,7 @@
     padding: 14px 0 11px 0;
     color: #FFF;
     border-radius: 50%;
-    background-color: $mainBlue;
+    background-color: $color3;
     width: 80px;
     line-height: 1;
     transition: opacity .33s;
@@ -29,8 +29,8 @@
     opacity: .75;
   }
 
-  &__date--beige {
-    background-color: $mainYellow;
+  &__date--color1 {
+    background-color: $color2;
   }
 
   &__month {

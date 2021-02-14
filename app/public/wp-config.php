@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+define( 'WP_AUTO_UPDATE_CORE', true );
+
 // ** MySQL settings - You can get this info from your web host ** //
 if (strstr($_SERVER['SERVER_NAME'], 'fictional-university.local')) {
 	define( 'DB_NAME', 'local' );

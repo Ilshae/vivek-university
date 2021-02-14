@@ -14,12 +14,12 @@
 .submit-note {
   color: #fff;
   border: none;
-  background-color: $darkOrange;
+  background-color: $color5;
   line-height: 1.65;
 }
 
 .submit-note:hover {
-  background-color: color($darkOrange b(+10%) s(+10%));
+  background-color: color($color5 b(+10%) s(+10%));
 }
 
 .edit-note,
@@ -52,7 +52,7 @@
   font-size: 1.85rem;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
-  color: $mainBlue;
+  color: $color3;
   border: 1px solid transparent;
   padding: 7px;
   outline: none;

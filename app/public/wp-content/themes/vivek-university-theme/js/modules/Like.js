@@ -8,7 +8,7 @@ class Like {
     }
   }
 
-  events() { 
+  events() {
     document.querySelector(".like-box").addEventListener("click", e => this.clickDispatcher(e))
   }
 
